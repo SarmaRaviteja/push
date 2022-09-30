@@ -1,0 +1,3 @@
+$action = New-ScheduleTask -Execute 'C:\Users\lenovo\Desktop\ravi\Powershell scripting docs\teja.ps1'
+$trigger = New-ScheduleTaskTrigger -Once -At 15:10
+Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "3rd task" -Description "creating file"

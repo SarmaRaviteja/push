@@ -1,0 +1,5 @@
+ #hello Boss Good Morning
+ #hello boss can i leave now
+#New-IISSite -Name "raviteja" -PhysicalPath "C:\Users\lenovo\Desktop\ravi\Powershell scripting docs\iis" -BindingInformation "*:8080:" -Protocol "https" -CertificateThumbPrint ""
+
+Schtasks /create /tn "Scheduler Test" /sc daily /st 22:35 /tr "PowerShell cat c:\Users\Matt\Documents\GitHub\baseball_statistics\test.txt

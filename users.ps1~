@@ -1,0 +1,12 @@
+#try {
+$Password = Read-Host -AsSecureString
+
+#$username = Read-Host 
+New-LocalUser "rvai" -Password '$password' -FullName "raviteja" -Description "script to create user in windows"
+#tsdiscon
+#tdiscon
+#Remove-localuser
+#}
+#catch {
+#echo "an error in TDISCON"
+#}
